@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claude Sample</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html, body {
+        width: 100%;
+        height: 100%;
+      }
+
+      .desktop {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background: #ffffff;
+        padding: 0 clamp(1rem, 8.6vw, 124px);
+      }
+
+      .headline {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: clamp(2rem, 13.9vw, 200px);
+        line-height: normal;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desktop">
+      <p class="headline">Hello, World!</p>
+    </div>
+  </body>
+</html>
